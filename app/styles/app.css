@@ -1,0 +1,109 @@
+ 
+    html,
+    body {
+        height: 100%;
+    }
+    
+    body {
+        background-image: url(http://www.wispyclouds.net/DSC03170-wispy-sky.jpg);
+        background-repeat: no-repeat;
+        text-align: center;
+        font-family: 'Droid Sans', sans-serif;
+    }
+    
+    h1 {
+    display: block;
+    color: white;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+    .wrap {
+        margin: 0 auto;
+        text-align: left;
+        color: #989A8F;
+    }
+    
+    .table {
+        padding: 15px 0px;
+        background-color: rgba(0,0,0,.4);
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    ul li {
+        float: left;
+        width: 189px;
+        list-style-type: none;
+        text-align: center;
+        border-left: 1px solid #DDDCD8;
+    }
+    
+    .padding-top {
+        padding-top: 25px;
+        color: white;
+    }
+    
+    .top {
+        background-color: rgba(0,0,0,.2);
+        min-height: 75px;
+        display: inline-block;
+        text-align: center;
+        h1 {
+            padding-top: 20px;
+        }
+    }
+    
+    .bottom {
+        margin-top: 25px;
+        p {
+            color: white;
+        }
+        
+    }
+
+    .bottom p {
+        color: white;
+    }
+    
+    .display {
+        display: inline-flex;
+    }
+    
+    .border {
+        border-right: 1px solid #d3d3d3;
+        border-left: 1px solid #d3d3d3;
+        text-align: center;
+    }
+    
+    .sign {
+        margin-top: 50px;
+        .button {
+            border: 1px solid #989A8F;
+            padding: 10px 40px;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            border-radius: 6px;
+            color: #989A8F;
+            font-size: 14px;
+            text-decoration: none;
+            vertical-align: middle;
+            font-size: 17px;
+        }
+    }
+    
+    .marginBottom10 {
+        margin-bottom: 10px;
+    }
+    
+    .dayWeather {
+        min-height: 250px;
+    }
+    
+    .no-padding {
+        padding-left: 0px;
+        padding-right: 0px;
+    }

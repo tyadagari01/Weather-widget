@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app\src\app.spec.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">all files</a> / <a href="index.html">app/src/</a> app.spec.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>40/40</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>15/15</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>40/40</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">8×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">8×</span>
+<span class="cline-any cline-yes">8×</span>
+<span class="cline-any cline-yes">8×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">'use strict';
+describe('Weather Module', function () {
+    var ctrl, scope, httpBackend;
+    // load the controller's module
+    beforeEach(function () {
+        module('myApp');
+    });
+    describe('myCtrl', function () {
+        beforeEach(inject(function ($rootScope, $controller, $httpBackend) {
+            scope = $rootScope.$new();
+            httpBackend = $httpBackend;
+            ctrl = $controller('myCtrl', {
+                $scope: scope
+            });
+        }));
+        describe('#getTime', function () {
+            it('should convert unixTimeStamp and return readable date', function () {
+                var UnixTimeStamp = 1472579768; // Unix Timestamp for Tuesday, August 30th 2016
+                expect(scope.getTime(UnixTimeStamp)).toBe('Tue, Aug 30th 2016');
+            });
+            it('should convert unixTimeStamp and return readable date', function () {
+                var UnixTimeStamp = 1471824000; // Unix Timestamp for Monday, August 22nd 2016
+                expect(scope.getTime(UnixTimeStamp)).toBe('Sun, Aug 21st 2016');
+            });
+        });
+        describe('#dateOrdinals', function () {
+            it('should return "st" as prefix as per the date, eg: 1st', function () {
+                var date = 1; // date 1st 
+                expect(scope.dateOrdinals(date)).toBe('1st');
+            });
+            it('should return "nd" as prefix as per the date, eg: 22nd', function () {
+                var date = 22; // date 22nd 
+                expect(scope.dateOrdinals(date)).toBe('22nd');
+            });
+            it('should return "rd" as prefix as per the date, eg: 3rd', function () {
+                var date = 3; // date 3rd 
+                expect(scope.dateOrdinals(date)).toBe('3rd');
+            });
+            it('should return "th" as prefix as per the date, eg: 4th', function () {
+                var date = 4; // date 4th 
+                expect(scope.dateOrdinals(date)).toBe('4th');
+            });
+        });
+        describe('#init', function () {
+            it('should call api and return data if no api error', function () {
+                var fakeData = {
+                    daily: {
+                        data: [{
+                                time: 1472540400
+                                , apparentTemperatureMax: "75.79"
+                                , apparentTemperatureMin: "57.96"
+                                , summary: "Mostly cloudy in the morning."
+                            }
+                                , {
+                                time: 1472626800
+                                , apparentTemperatureMax: "72.33"
+                                , apparentTemperatureMin: "57.23"
+                                , summary: "Light rain starting in the afternoon."
+                            }]
+                    }
+                };
+                httpBackend.whenJSONP("https://api.forecast.io/forecast/3d03ddb61ef8a5ddd53233ee9dc2f308/47.6062,-122.3320?callback=JSON_CALLBACK").respond(200, fakeData);
+                httpBackend.flush();
+                expect(scope.data1).toEqual(fakeData.daily.data);
+            });
+            it('should call api and data1 is undefined if api error occurs', function () {
+                var error = {};
+                httpBackend.whenJSONP("https://api.forecast.io/forecast/3d03ddb61ef8a5ddd53233ee9dc2f308/47.6062,-122.3320?callback=JSON_CALLBACK").respond(404, error);
+                httpBackend.flush();
+                expect(scope.data1).not.toBeDefined();
+            });
+        });
+    });
+});</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Fri Sep 09 2016 13:32:56 GMT-0500 (Central Daylight Time)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>

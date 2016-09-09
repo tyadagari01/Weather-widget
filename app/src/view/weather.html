@@ -1,0 +1,19 @@
+<h1>Seattle wheather report</h1>
+<div class="container wrap">
+    <div class="table clearfix">
+        <div class="col-sm-12">
+            <div class="col-lg-1"></div>
+                <div ng-repeat="day in data1 | limitTo: 5" class="border col-xs-12 col-sm-6 col-md-4 col-lg-2 no-padding marginBottom10 center-block dayWeather">
+                    <div class="top">
+                        <h3 class="padding-top">{{ getTime(day.time) }}</h3>
+                  </div>
+                  <div class="bottom">
+                    <p><span>Max:</span> {{ day.apparentTemperatureMax }} <sup>°</sup></p>
+                    <p><span>Min:</span> {{ day.apparentTemperatureMin }} <sup>°</sup></p>
+                    <p> {{ day.summary }}</p>
+                  </div>
+                </div>
+            <div class="col-lg-1"></div>  
+        <div class="clearfix"></div>
+    </div>
+</div>
